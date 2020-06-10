@@ -45,6 +45,14 @@ h1 {
     color: rgb(34, 98, 119);
 }
 
+h1::selection {
+    background: #ffb7b7;
+}
+
+h1::-moz-selection {
+    background: #ffb7b7;
+}
+
 h2 {
     margin: calc(30vh) 40px 0px 40px;
     font-weight: 500;
@@ -52,11 +60,51 @@ h2 {
     color: rgb(34, 98, 119);
 }
 
+h2::selection {
+    background: #ffb7b7;
+}
+
+h2::-moz-selection {
+    background: #ffb7b7;
+}
+
 p {
     margin: 0px 40px 5px 40px;
     font-weight: 400;
     font-size: 13pt;
     color: rgb(31, 83, 100);
+}
+
+p::selection {
+    background: #ffb7b7;
+}
+
+p::-moz-selection {
+    background: #ffb7b7;
+}
+
+ul::selection {
+    background: #ffb7b7;
+}
+
+ul::-moz-selection {
+    background: #ffb7b7;
+}
+
+a::selection {
+    background: #ffb7b7;
+}
+
+a::-moz-selection {
+    background: #ffb7b7;
+}
+
+img::selection {
+    background: #ffb7b7;
+}
+
+img::-moz-selection {
+    background: #ffb7b7;
 }
 
 #section1 b p a {
