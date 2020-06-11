@@ -16,6 +16,7 @@ body {
     animation: fadeInAnimation ease 0.7s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    flex-direction: column;
 }
 
 @keyframes fadeInAnimation {
@@ -33,13 +34,9 @@ section {
     position: relative;
 }
 
-b {
-    position: absolute;
-    bottom: calc(10vh);
-}
-
 h1 {
     margin: 0px 40px 0px 40px;
+    padding-top: calc(35vh);
     font-weight: 500;
     font-size: 60pt;
     color: rgb(34, 98, 119);
@@ -54,7 +51,7 @@ h1::-moz-selection {
 }
 
 h2 {
-    margin: calc(30vh) 40px 0px 40px;
+    margin: calc(25vh) 40px 0px 40px;
     font-weight: 500;
     font-size: 20pt;
     color: rgb(34, 98, 119);
@@ -69,7 +66,7 @@ h2::-moz-selection {
 }
 
 p {
-    margin: 0px 40px 5px 40px;
+    margin: 0px 40px 0px 40px;
     font-weight: 400;
     font-size: 13pt;
     color: rgb(31, 83, 100);
@@ -107,19 +104,20 @@ img::-moz-selection {
     background: #ffb7b7;
 }
 
-#section1 b p a {
+#section1 p a {
     text-decoration: underline;
     color: rgb(31, 83, 100);
     transition: color 0.3s ease;
 }
 
-#section1 b p a:hover {
+#section1 p a:hover {
     color: rgb(255, 103, 103);
 }
 
 #section2 {
     display: flex;
     flex-direction: column;
+    height: calc(130vh);
 }
 
 #section2 ul {
@@ -139,7 +137,8 @@ img::-moz-selection {
 }
 
 .links {
-    margin: 30px 40px 20px 30px;
+    margin: calc(1vh) 40px 0px 30px;
+    font-weight: 400;
 }
 
 .links li {
@@ -210,10 +209,6 @@ img::-moz-selection {
     text-indent: -99999px;
 }
 
-.links {
-    font-weight: 400;
-}
-
 @media screen and (max-height: 1500px) {
     h1 {
         font-size: 50pt;
@@ -232,9 +227,6 @@ img::-moz-selection {
 
 
 @media screen and (max-height: 600px) {
-    h2 {
-        margin: calc(30vh) 40px 0px 40px;
-    }
 
     .navbar li:first-child a {
         background-size: 70px 90px;
@@ -244,12 +236,6 @@ img::-moz-selection {
 
     .navbar li a {
         line-height: 75px;
-    }
-}
-
-@media screen and (max-height: 350px) {
-    h2 {
-        margin: 140px 40px 0px 40px;
     }
 }
 
@@ -290,10 +276,6 @@ img::-moz-selection {
         font-size: 15pt;
     }
 
-    b {
-        bottom: calc(5vh);
-    }
-
     .links a {
         font-size: 10pt;
     }
@@ -320,10 +302,6 @@ img::-moz-selection {
 
     h2 {
         font-size: 10pt;
-    }
-
-    b {
-        bottom: calc(5vh);
     }
 
     .links a {
