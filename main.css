@@ -137,7 +137,7 @@ img::-moz-selection {
 }
 
 .links {
-    margin: calc(1vh) 40px 0px 30px;
+    margin: calc(3vh) 40px 0px 30px;
     font-weight: 400;
 }
 
