@@ -36,14 +36,14 @@ section {
 
 h1 {
     margin: 0px 40px 0px 40px;
-    padding-top: calc(35vh);
+    padding-top: calc(45vh);
     font-weight: 500;
     font-size: 60pt;
     color: rgb(34, 98, 119);
 }
 
 h1::selection {
-    background: #ffb7b7;
+    background: #ffb7b7;padding-top: calc(35vh);
 }
 
 h1::-moz-selection {
@@ -202,16 +202,17 @@ img::-moz-selection {
     margin-top: 0px;
     width: 100px;
     height: 100px;
-    background-image: url(images/image1.jpg);
-    background-size: 100px 140px;
+    background-image: url(images/received_450615082982523.jpeg);
+    background-size: 140px 140px;
     background-position: center;
     border-radius: 50%;
     text-indent: -99999px;
 }
 
-@media screen and (max-height: 1500px) {
+@media screen and (max-height: 1200px) {
     h1 {
         font-size: 50pt;
+        padding-top: calc(35vh);
     }
 }
 
@@ -229,7 +230,7 @@ img::-moz-selection {
 @media screen and (max-height: 600px) {
 
     .navbar li:first-child a {
-        background-size: 70px 90px;
+        background-size: 90px 90px;
         width: 75px;
         height: 75px;
     }
@@ -253,7 +254,7 @@ img::-moz-selection {
     }
 
     .navbar li:first-child a {
-        background-size: 70px 90px;
+        background-size: 90px 90px;
         width: 75px;
         height: 75px;
     }
@@ -281,7 +282,7 @@ img::-moz-selection {
     }
 
     .navbar li:first-child a {
-        background-size: 70px 90px;
+        background-size: 70px 70px;
         width: 60px;
         height: 60px;
     }
@@ -309,7 +310,7 @@ img::-moz-selection {
     }
 
     .navbar li:first-child a {
-        background-size: 70px 90px;
+        background-size: 70px 70px;
         width: 50px;
         height: 50px;
     }
